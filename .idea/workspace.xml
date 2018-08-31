@@ -309,6 +309,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/person/Person5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -333,5 +334,7 @@
         </settings>
       </state>
     </states>
+=======
+>>>>>>> f0581b169d2398cbfd71cc0446e2216e368ef72c
   </component>
 </project>
