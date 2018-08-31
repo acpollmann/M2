@@ -29,10 +29,19 @@ public class Person2 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
-	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
-	}
+    private String calc(String input) {
+        //Person 2 put your implementation here
+        if (input != null) {
+            char[] letters = new char[input.length()];
+            Random random = new Random();
+            for (int i = 0; i < input.length(); i++) {
+                letters[i] = input.charAt(random.nextInt(input.length()));
+            }
+            String answer = new String(letters);
+            return answer;
+        }
+        return null;
+    }
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
